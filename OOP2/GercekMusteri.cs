@@ -4,11 +4,14 @@ using System.Text;
 
 namespace OOP2
 {
-    //Individual
-    class GercekMusteri :Musteri
+    class GercekMusteri : Musteri
     {
+        //Individual
+
+
         public string TcNo { get; set; }
         public string Adi { get; set; }
         public string Soyadi { get; set; }
+
     }
 }
